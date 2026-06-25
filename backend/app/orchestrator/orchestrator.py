@@ -1,6 +1,6 @@
-from app.agent.executor import Executor
-from app.agent.intent_parser import IntentParser
-from app.agent.planner import Planner
+from app.orchestrator.executor import Executor
+from app.orchestrator.intent_parser import IntentParser
+from app.orchestrator.planner import Planner
 
 
 class Agent:
