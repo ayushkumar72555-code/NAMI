@@ -1,0 +1,26 @@
+# Auto-detect text files and normalize to LF in Git
+* text=auto
+
+# Python
+*.py text eol=lf
+
+# JavaScript / TypeScript
+*.js text eol=lf
+*.jsx text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+
+# Web
+*.css text eol=lf
+*.html text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.toml text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# PowerShell
+*.ps1 text eol=crlf
+
+# Windows Batch
+*.bat text eol=crlf
